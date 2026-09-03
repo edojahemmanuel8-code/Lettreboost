@@ -1,0 +1,25 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Production and local build output
+dist/
+.vite/
+
+# Local logs and temporary checks
+*.log
+*.tmp
+temp_check.txt
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
