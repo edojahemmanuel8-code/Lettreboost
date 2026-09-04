@@ -3,7 +3,7 @@
 const pricingPlans = [
   {
     name: "Starter",
-    price: "$49",
+    price: "$99",
     period: null,
     audience: "For individuals and small organisations.",
     features: [
@@ -19,7 +19,7 @@ const pricingPlans = [
   },
   {
     name: "Business",
-    price: "$99",
+    price: "$199",
     period: null,
     audience: "For businesses and organisations needing a more complete newsletter.",
     features: [
@@ -36,7 +36,7 @@ const pricingPlans = [
   },
   {
     name: "Growth",
-    price: "$199",
+    price: "$499",
     period: null,
     audience: "For organisations requiring more strategic newsletter support.",
     features: [
@@ -63,6 +63,7 @@ const pricingPlans = [
       "Professional design",
       "Audience targeting",
       "Campaign preparation",
+      "Up to 50,000 email sends",
       "Targeted distribution support",
       "Performance recommendations",
     ],
@@ -80,6 +81,7 @@ const pricingPlans = [
       "Newsletter design",
       "Audience-focused content",
       "Campaign preparation",
+      "Up to 50,000 email sends",
       "Recurring support",
       "Performance recommendations",
     ],
