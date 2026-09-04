@@ -58,13 +58,13 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-navy-900/10">
-      <div className="container-lb flex items-center justify-between h-16">
-        <NavLink to="/" className="flex items-center gap-2 font-display font-bold text-lg text-navy-900">
+      <div className="container-lb grid grid-cols-[1fr_auto_1fr] items-center h-16">
+        <NavLink to="/" className="justify-self-start flex items-center gap-2 font-display font-bold text-lg text-navy-900">
           <LogoMark />
           {siteConfig.brandName}
         </NavLink>
 
-        <ul className="hidden lg:flex items-center gap-16 text-sm font-medium text-navy-900/80">
+        <ul className="hidden lg:flex items-center justify-self-center gap-10 xl:gap-16 text-sm font-medium text-navy-900/80">
           {navLinks.map((link) => (
             <li key={link.to}>
               <NavLink
@@ -127,7 +127,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <div className="hidden lg:block">
+        <div className="hidden lg:block justify-self-end">
           <Button to="/contact" variant="primary">
             Get Started
           </Button>
