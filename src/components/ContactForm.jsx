@@ -15,7 +15,7 @@ const serviceOptions = [
   "Custom Requirement",
 ];
 
-const budgetOptions = ["Not sure yet", "Under $50", "$50 – $100", "$100 – $250", "$250+", "Custom"];
+const budgetOptions = ["Starter - $99", "Business - $199", "Growth - $299", "Custom"];
 
 const initialState = {
   fullName: "",

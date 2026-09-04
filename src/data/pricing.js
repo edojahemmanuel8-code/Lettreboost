@@ -36,7 +36,7 @@ const pricingPlans = [
   },
   {
     name: "Growth",
-    price: "$499",
+    price: "$299",
     period: null,
     audience: "For organisations requiring more strategic newsletter support.",
     features: [

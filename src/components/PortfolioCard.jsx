@@ -8,7 +8,7 @@ export default function PortfolioCard({ item }) {
       <div className="relative aspect-[4/3] overflow-hidden bg-navy-900/5">
         {item.image && !imageError ? (
           <img
-            src={`/portfolio/${item.image}`}
+            src={`${import.meta.env.BASE_URL}portfolio/${encodeURIComponent(item.image)}`}
             alt={item.title}
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
             onError={() => setImageError(true)}
