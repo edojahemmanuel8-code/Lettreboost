@@ -32,7 +32,11 @@ jobs:
 
       - name: Build
         env:
-          VITE_APPS_SCRIPT_URL: ${{ secrets.VITE_APPS_SCRIPT_URL }}
+          VITE_APPS_SCRIPT_URL: https://script.google.com/macros/s/AKfycbwyLIwyUianNM8y_PCh7v7mkjgJkdR3P1f9Be5rOqIgvScYu76oR-RipjzE9hqH4tTr/exec
+          VITE_WHATSAPP_NUMBER: 2347043463441
+          VITE_CONTACT_EMAIL: admin@lettreboost.com.ng
+          VITE_GA4_MEASUREMENT_ID: G-ETC4KHBQQV
+          VITE_TAWKTO_PROPERTY_ID: 6a981431c8da5c3443c0f516
         run: npm run build
 
       - name: Upload artifact
